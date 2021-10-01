@@ -1,35 +1,35 @@
 body {
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     margin-left: 30px;
-    color: #64dfc6;
+    color: #0572C1;
   }
   section {
-    background-color: #0f0d0c;
+    background-color: #EEF0F1;
   }
   a {
-    color: #f1b5b5;
+    color: #8DC8FF;
     text-decoration: underline;
   }
   h1 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', monospace;
     font-weight: 600;
     font-size: 80px;
   }
   h2 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', monospace;
     font-weight: 600;
     font-size: 60px;
   }
   h3 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', monospace;
     font-weight: 600;
     font-size: 50px;
   }
   h4 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Roboto', monospace;
     font-weight: 600;
     font-size: 40px;
   }
