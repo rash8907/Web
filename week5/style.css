@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+p{
+    color: rgb(58, 52, 52);
+    font-family: helvetica;
+}
+
+h1, h2, button{
+    font-family: "Bebas Neue";
+}
+
+#me{
+     width:100vw;
+     height: 60vh;
+     overflow: hidden;
+     margin: 0px; 
+     padding: 0px;
+     
+ }
+
+#meimg{
+     width:100vw;
+     position: relative;
+     bottom: 100px;
+     
+ }
+
+h1{
+     z-index: 1;
+     position: relative;
+     font-size: 8vw;
+     top: 5vh;
+     margin: 0 0 0 7vw;
+
+ }
+
+#one, #two, #three{
+     margin-left: 7vw;
+     margin-right: 3vw;
+ }
+
+button{
+     background-color: #ebbd34 
+    
+}
+
+button:active{
+    background-color: rgb(86, 86, 201);
+    color: white;
+}
+
+button:hover{
+    border: solid black 3px;
+}
+
+a:active{
+    color: red;
+
+}
+
+a:visited{
+    color:grey ;
+
+}
+
+a:link{
+    color: blue;
+
+}
+a:hover{
+    font-size: 200%;
+
+}
+
+
+
