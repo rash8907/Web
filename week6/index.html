@@ -51,14 +51,15 @@
 
     <script>
         console.log("javascript working");
-        document.getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button"; buttonOne)});
+        document.getElementById("mybutton").addEventListener("click", button);
         document.getElementById("mybutton2").addEventListener("click", buttonClicked);
         function buttonClicked(){
             alert("you pushed the second button")
             document.getElementById("text").innerHTML = "have a nice day";
         }
 
-        function buttonOne(){
+        function button(){
+            alert("you pushed the first button")
             document.getElementById("first").style.color = "red";
         }
 
