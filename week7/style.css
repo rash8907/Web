@@ -1,0 +1,30 @@
+section{
+    background-color: rgb(162, 154, 228);
+    margin: 70vh 20vw;
+    padding: 8vh 10vw 10vh 10vw;
+    border-radius: 8px;
+}
+
+button{
+    border-radius: 8px;
+    padding: 1vh 3vw;
+    margin-top: 1vh;
+    background-color: black;
+    color:white;
+    font-family:"Open Sans";
+    font-weight: bold;
+}
+
+button:hover{
+    border: white solid 1px;
+}
+
+button:active{
+    color: grey
+}
+
+h1{
+    color: rgb(56, 54, 54);
+    font-family:"Comfortaa";
+    font-weight: 200;
+}

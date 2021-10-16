@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans">
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('https://i.pinimg.com/originals/f5/67/32/f56732b041472cd1072fdcdabfd2eaa4.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+        
+    <section>
+        <h1 id="qtext"> Welcome to the quote machine, click the button to recieve a quote!</h1>
+        <button id="newquote">new quote</button>
+    </section>
+
+
+    <script>
+        const quotes = ["We may only be together five minutes every two months, but when we do we will savor every second. We know how valuable those five minutes are.", "Sometimes you have to be a shark.", "You have to go back to the beginning to understand the end." , "Being aware of your crap and actually overcoming your crap are two very different things." , "Don’t analyze everything. Just do it." , "We don’t get unlimited chances to have the things that we want, and this I know. Nothing is worse than missing an opportunity that could have changed your life." , "Friends are the family we choose." ];
+        let quotecount = 0;
+
+        document.getElementById("newquote").addEventListener("click", buttonClicked);
+        function buttonClicked(){
+       
+            console.log(quotes[quotecount]);
+            document.getElementById("qtext").innerHTML = quotes[quotecount];
+
+            if(quotecount>=6){
+                quotecount = 0;
+            }else{
+                quotecount++
+            }
+         
+        }
+    </script>
+</body>
