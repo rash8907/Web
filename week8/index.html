@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans"
+</head>
+<body>
+<section id="quotesection">
+<h1 id="qtext">Welcome the quote machine, click the button to get a quote.</h1>
+<button id="newquote">New Quote</button>
+</section>
+
+    <section id="one">
+
+        <h2>This is my <span id="first"> first section</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+            velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+            velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+    </section>
+
+    <section id="two">
+
+        <h2>This is my <a href="https://google.com"> second section</a></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+            velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+            elit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+    </section>
+
+    <section id="three">
+        <h2> This section contains a button</h2>
+        <button id="mybutton">Click this button</button>
+        <button id="mybutton2">Click this button</button>
+    </section>
+
+
+    <script>
+        console.log("javascript working");
+        document.getElementById("mybutton").addEventListener("click", button);
+        document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+        function buttonClicked(){
+            alert("you pushed the second button")
+            document.getElementById("text").innerHTML = "have a nice day";
+        }
+
+        function button(){
+            alert("you pushed the first button")
+            document.getElementById("first").style.color = "red";
+        }
+
+    </script>
+
+
+</body>
