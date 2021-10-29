@@ -34,11 +34,12 @@ h2{
   padding-bottom: 0;
   font-size: 1.8em;
   margin-left: 0px;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  
 }
 
-
-
-#mondaymenu, #tuesdaymenu, #wednesdaymenu, #thursdaymenu, #fridaymenu, #saturdaymenu, #sundaymenu{
+#tuesdaymenu, #wednesdaymenu, #thursdaymenu, #fridaymenu, #saturdaymenu, #sundaymenu{
   display: none;
 }
 
@@ -49,23 +50,51 @@ h2{
 
 
  img{
-  width: 700px;
-  max-height: 700px;
+  width: 750px;
+  max-height: 750px;
   object-fit: cover;
   display: block;
-  margin: auto;
+  margin-bottom:50px ;
  }
 
  .menu{
-   margin-left: 500px;
-   margin-bottom: 100px;
+   margin-left: 450px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   
  }
 
- h1{
-   font-size: 5.0em;
-   font-family: red hat display;
+
+ h3{
+   text-align: center;
+   text-decoration: underline;
+   font-family: 'Red Hat Display', sans-serif;
  }
 
-  /* object-position: 20% 10%; */
-/* } 
+ h4{
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+@keyframes example {
+  from {color: rgb(105, 10, 91);}
+  to {color: #f0a2ec;}
+}
+
+/* The element to apply the animation to */
+h1 {
+  
+  color: rgb(105, 10, 91);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  font-size: 5.0em;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  margin-bottom: -100px;
+ 
+}
+
+
 

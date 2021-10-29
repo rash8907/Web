@@ -1,4 +1,5 @@
 let days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+// let images = ["MONDAY.png", "TUESDAY.png", "WEDNESDAY.png" , "THURSDAY.png", "FRIDAY.png", "SATURDAY.png", "SUNDAY.png"];
 let images = ["MONDAY.png", "TUESDAY.png", "WEDNESDAY.png" , "THURSDAY.png", "FRIDAY.png", "SATURDAY.png", "SUNDAY.png"];
 let prevday;
 
