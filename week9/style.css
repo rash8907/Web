@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(248, 238, 225);
+}
+#tabs{
+  display: flex;
+  margin: 25vh 10vw 0 10vw;
+}
+
+#items{
+  display:flex;
+  margin: 0vh 10vw 0 10vw;
+  padding-top: 80px;
+  background-color: #fff0ee;
+  border: 1px solid rgb(109, 105, 105);
+  border-top: none;
+}
+
+.day{
+  flex-grow: 1;
+  width: auto;
+  border: 1px solid rgb(112, 108, 111);
+  background-color:#e6c2bd;
+}
+
+#image, .day{
+  flex-grow: 1;
+  width:auto;
+  max-width: 30%;
+ 
+}
+
+h2{
+  margin-top: 28px;
+  padding-bottom: 0;
+  font-size: 1.8em;
+  margin-left: 0px;
+}
+
+
+
+#mondaymenu, #tuesdaymenu, #wednesdaymenu, #thursdaymenu, #fridaymenu, #saturdaymenu, #sundaymenu{
+  display: none;
+}
+
+.active{
+  background-color: #fff0ee;
+  border-bottom:none;
+}
+
+
+ img{
+  width: 700px;
+  max-height: 700px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+ }
+
+ .menu{
+   margin-left: 500px;
+   margin-bottom: 100px;
+ }
+
+ h1{
+   font-size: 5.0em;
+   font-family: red hat display;
+ }
+
+  /* object-position: 20% 10%; */
+/* } 
+
