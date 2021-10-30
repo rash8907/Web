@@ -97,4 +97,21 @@ h1 {
 }
 
 
+a:link {
+  color: rgb(10, 0, 8);
+}
+
+a:visited {
+  color: rgb(178, 97, 224);
+}
+
+a:hover {
+  color: rgb(255, 0, 234);
+}
+
+a:active {
+  color: rgb(118, 119, 118);
+}
+
+
 
