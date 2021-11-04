@@ -40,7 +40,7 @@ function setActive(e){
   var day = document.getElementsByClassName('active')[0].id;
   console.log(day);
   document.getElementById(day +"menu").style.display = "block";
-  document.getElementById('image').innerHTML = "<img src = '" + day.toLowerCase() + ".png' >";
+  document.getElementById('image').innerHTML = "<img src = '" + day.toUpperCase() + ".png' >";
 
 }
 
