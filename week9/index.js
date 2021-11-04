@@ -27,8 +27,7 @@ function setActive(e){
     document.getElementById(prevday +"menu").style.display = "none";
 
   }
-  // console.log("previous meal: " + prevmeal);
-  // prevmeal.classList.toggle('active');
+
 
 
   if(e.target.tagName == "H2"){
@@ -45,6 +44,3 @@ function setActive(e){
 }
 
 
-// function setActiveButton(e){
-//   e.target.classList.toggle("active");
-// }
