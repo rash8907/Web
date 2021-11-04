@@ -1,6 +1,6 @@
 let days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 // let images = ["monday.png", "tuesday.png", "wednesday.png" , "thursday.png", "friday.png", "saturday.png", "sunday.png"];
-let images = ["monday.png", "tuesday.png", "wednesday.png" , "thursday.png", "friday.png", "saturday.png", "sunday.png"];
+let images = ["MONDAY.png", "TUESDAY.png", "WEDNESDAY.png" , "THURSDAY.png", "FRIDAY.png", "SATURDAY.png", "SUNDAY.png"];
 let prevday;
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
