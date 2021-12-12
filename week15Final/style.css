@@ -206,10 +206,6 @@ body{
 
 #pic1{
   grid-area: header;
-  /* grid-row-start:1;
-  grid-row-end:3; */
-  /* grid-column-start:1;
-  grid-column-end:3; */
 }
 
 #pic2{
@@ -221,14 +217,9 @@ body{
 }
 
 #pic4{
-    /* border: 4px lightgreen solid; */
     grid-area: four;
-    /* grid-column-start: 2;
-    grid-row-start: span 2; */
+
 }
-
-
-
 
 
 #portfolio img{
