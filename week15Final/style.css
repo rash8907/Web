@@ -54,8 +54,8 @@
 }
 
 @keyframes example {
-    from {color: rgb(105, 10, 91);}
-    to {color: #f0a2ec;}
+    from {color: rgb(4, 27, 158);}
+    to {color: #268ed4;}
   }
   
   /* The element to apply the animation to */
