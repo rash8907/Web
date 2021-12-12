@@ -53,16 +53,30 @@
   /* font-size: 30px; */
 }
 
+@keyframes example {
+    from {color: rgb(105, 10, 91);}
+    to {color: #f0a2ec;}
+  }
+  
+  /* The element to apply the animation to */
+  h1 {
+    
+    color: rgb(105, 10, 91);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    font-size: 5.0em;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin-bottom: -100px;
+   
+  }
+
 
 body{
   margin: auto 20vw auto 20vw;
 }
-
-/* .portfoliopic{
-  width: 100%;
-  height:100%;
-  object-fit: cover;
-} */
 
 
 #contactimg{
@@ -133,7 +147,8 @@ nav{
 }
 
 nav a{
-  font-family: arial;
+    
+font-family: "RedHatDisplay";
   font-size: 20px;
   font-weight: 300;
   margin-left: 50px;
@@ -146,14 +161,14 @@ nav a{
 }
 
 h1{
-  font-family: "Merriweather";
+  font-family: "RedHatDisplay";
   font-size: 40px;
 }
 
 
 
 p{
-  font-family: arial;
+    font-family: "RedHatDisplay";
   font-size: 20px;
 }
 
@@ -162,7 +177,7 @@ p{
 }
 
 h4{
-  font-family: arial;
+    font-family: "RedHatDisplay";
 }
 
 #about, #ourteam h2, #do{
